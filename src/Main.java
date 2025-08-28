@@ -17,8 +17,8 @@ public class Main {
         ArrayList<String> posts = new ArrayList<>(Arrays.asList("Java Programming Tips", "Advanced Java Tutorial", "Spring Boot Guide"));
         HashMap<String, Integer> engagements = new HashMap<>();
         engagements.put("Java Programming Tips", 250);
-        engagements.put("Advanced Java Tutorial", 800);
-        engagements.put("Spring Boot Guide", 1200);
+        engagements.put("Advanced Java Tutorial", 750);
+        engagements.put("Spring Boot Guide", 1700);
 
         System.out.println("Trending Posts: " + managePost.findTrendingPosts(posts, engagements));
 
