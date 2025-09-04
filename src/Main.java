@@ -1,4 +1,4 @@
-public class TestBook {
+public class Main {
     public static void main(String[] args) {
         System.out.println("═══ Book Record System ═══\n");
 
