@@ -21,7 +21,8 @@ public class Book {
     }
 
     public double getAverageRating() {
-        if (ratings.isEmpty()) return 0.0;
+        if (ratings.isEmpty())
+            return 0.0;
         int sum = 0;
         for (int rating : ratings) {
             sum += rating;
@@ -60,17 +61,17 @@ public class Book {
         return totalBooks;
     }
 
-    public String displayBook() {
-        return "Book: " + title + " by " + author +
-                ", Average Rating: " + String.format("%.2f", getAverageRating()) +
-                ", Level: " + getPopularityLevel();
-    }
-
     public String getTitle() {
         return title;
     }
 
     public String getAuthor() {
         return author;
+    }
+
+    public String displayBook() {
+        return "Book: " + title + " by " + author +
+                ", Average Rating: " + String.format("%.2f", getAverageRating()) +
+                ", Level: " + getPopularityLevel();
     }
 }
