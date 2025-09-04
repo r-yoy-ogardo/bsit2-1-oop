@@ -51,8 +51,8 @@ public class Book {
         for (int rating : ratings) {
             try {
                 addRating(rating);
-            } catch (IllegalArgumentException e) {
-                System.out.println("Error: " + e.getMessage());
+            } catch (IllegalArgumentException error) {
+                System.out.println("Error: " + error.getMessage());
             }
         }
     }
