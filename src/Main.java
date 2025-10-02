@@ -5,7 +5,7 @@ public class Main {
         LibraryManager manager = new LibraryManager();
 
 
-        Book book1 = new Book("B001", "Java Programming", "James Gosling", "123456", 500, "Programming");
+        Book book1 = new Book("B001", "Java Programming", "James Gosling", "1234567", 500, "Programming");
         Magazine mag1 = new Magazine("M001", "Tech Today", "Editor Smith", 10, "September", true);
         DVD dvd1 = new DVD("D001", "The Matrix", "Wachowski Sisters", 136, "R", "Sci-Fi");
 
@@ -28,8 +28,8 @@ public class Main {
         System.out.println();
 
 
-        Student student = new Student("U001", "John Smith", "john@liceo.edu.ph", "S1001", "Computer Science");
-        Faculty faculty = new Faculty("U002", "Dr. Smith", "drsmith@liceo.edu.ph", "Engineering", "Professor");
+        Student student = new Student("U001", "John Smith", "johnny@liceo.edu.ph", "S1001", "Computer Science");
+        Faculty faculty = new Faculty("U002", "Dr. Smith", "smith@liceo.edu.ph", "Engineering", "Professor");
 
 
         System.out.println("═══ Testing Borrowing ═══");
